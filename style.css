@@ -1,0 +1,48 @@
+.footer {
+    display: flex;
+    justify-content: space-between;
+    padding: 70px 50px;
+    background-color: white;
+    color: #222222;
+}
+.footer-avval {
+    width: 30%;
+}
+.footer-avval p {
+    color: #888888;
+    margin-top: 20px;
+    line-height: 1.6;
+}
+.footer .logo {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.footer .logo img {
+    width: 35px;
+}
+.social {
+    display: flex;
+    gap: 15px;
+}
+
+.social p {
+    color: #3485d1;
+}
+
+.footer-menu {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.footer-menu h3 {
+    font-size: 18px;
+    margin-bottom: 10px;
+}
+
+.footer-menu p {
+    color: #777777;
+    font-size: 14px;
+}
