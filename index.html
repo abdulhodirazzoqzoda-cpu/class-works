@@ -1,90 +1,229 @@
-<!DOCTYPE html>
+[24.11.2026 17:08] ~Řąžžøqźąðē: <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Hotel Booking</title>
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
- <header class="header">
-
-    <div class="logo">
-        <img src="./images/logo.png" alt="Hotel logo">
-    </div>
-
-    <nav class="menu">
-        <a href="#">Booking</a>
-        <a href="#">Facilities</a>
-        <a href="#">About Us</a>
-        <a href="#">Location</a>
-        <a href="#">Contact</a>
-    </nav>
-
-    <div class="header-right">
-        <span>☰</span>
-        <button>Sign in</button>
-    </div>
-
-</header>
-
-
-<section class="section1">
-
-    <div class="matn-avval">
-
-        <h1>
-            Find Your Best Hotel
-            for Deals
-        </h1>
-
-        <p>
-            Lorem Ipsum is simply dummy text of the printing
-            and typesetting industry.
-        </p>
-
-    </div>
-
-    <div class="booking">
-
-        <div class="booking-top">
-            <div>
-                <span>▣</span>
-                Jun 10 - 14
+    <header class="header">
+        <div class="container header_container">
+            <div class="logo">
+                <img src="./images/logo.png" alt="Hotelo Logo">
+                <span>Hotelo</span>
             </div>
-
-            <div>
-                <span>♙</span>
-                2 Guests
+            <nav class="nav">
+                <a href="#">Booking</a>
+                <a href="#">Facilities</a>
+                <a href="#">About Us</a>
+                <a href="#">Location</a>
+                <a href="#">Contact</a>
+            </nav>
+            <button class="btn btn_outline">Sign In</button>
+        </div>
+    </header>
+    <section class="section hero_section">
+        <div class="container hero_container">
+            <div class="hero_top">
+                <div class="hero_text">
+                    <h1>Find Your Best Hotel for Deals</h1>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="search_box">
+                    <div class="search_row">
+                        <span>📅 Jun 10 - 14</span>
+                        <span>👤 2 Guests</span>
+                    </div>
+                    <div class="search_row">
+                        <span>📍 United States</span>
+                        <button class="btn_search">🔍</button>
+                    </div>
+                </div>
+            </div>
+            <div class="hero_images">
+                <div class="main_img">
+                    <img src="./images/Image (16).png" alt="Hotel">
+                    <div class="img_caption">Wagstaffe NSW, Australia</div>
+                </div>
+                <div class="side_imgs">
+                    <img src="./images/Image (17).png" alt="Pool">
+                    <img src="./images/Image (18).png" alt="Room">
+                </div>
             </div>
         </div>
-
-        <div class="booking-bottom">
-
-            <div>
-                <span>📍</span>
-                United States
+    </section>
+    <section class="section facilities_section">
+        <div class="container">
+            <div class="facilities_header">
+                <div>
+                    <h2>Facilities & Service</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy</p>
+                </div>
+                <a href="#" class="view_all">View All</a>
             </div>
-
-            <button>⌕</button>
-
+            
+            <div class="facilities_grid">
+                <div class="facility_item">
+                    <div class="icon_circle">💻</div>
+                    <h3>Private Workspace</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="facility_item">
+                    <div class="icon_circle">🅿️</div>
+                    <h3>Parking Area</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="facility_item">
+                    <div class="icon_circle">📶</div>
+                    <h3>Free Wifi</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="facility_item">
+                    <div class="icon_circle">☕</div>
+                    <h3>Breakfast</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+            </div>
         </div>
+    </section>
+    <section class="section luxury_section">
+        <div class="container luxury_container">
+            <div class="luxury_img">
+                <img src="./images/Rectangle 847.png">
+            <div class="luxury_text">
+                <h2>Finest Luxury Hotels & Resort</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+                
+                <div class="stats">
+                    <div class="stat_item">
+                        <h3>120K+</h3>
+                        <p>Website User</p>
+                    </div>
+                    <div class="stat_item">
+                        <h3>110K+</h3>
+                        <p>Happy Clients</p>
+                    </div>
+                    <div class="stat_item">
+                        <h3>20K+</h3>
+                        <p>Active Hotels</p>
+                    </div>
+                    <div class="stat_item">
+                        <h3>8Y+</h3>
+                        <p>company Year</p>
+                    </div>
+                </div>
+                <button class="btn btn_primary">Explore More</button>
+            </div>
+        </div>
+    </section>
+    <section class="partners_section">
+        <div class="container partners_container">
+            <img src="./images/Hotels.com-Logo.wine 1.png" alt="Hotels.com">
+            <img src="./images/Hyatt-Logo.wine 1.png" alt="Hyatt">
+            <img src="./images/Park_Hotels_&_Resorts-Logo.wine 1.png" alt="Park">
+            <img src="./images/Hilton_Portland_Hotel-Logo.wine 1.png" alt="Hilton">
+        </div>
+    </section>
+    <section class="section testimonial_section">
+        <div class="container testimonial_container">
+            <img src="./images/Image (19).png" alt="Woman" class="testi_img">
+            <div class="testi_card">
+                <img src="./images/0a1e91fcc7a2b1d5b880a7ae38500f1c8b71940d.jpg" alt="Avatar" class="avatar">
+                <h4>Naomhul Nabeel</h4>
+                <p>"Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s..."</p>
+            </div>
+        </div>
+    </section>
+    <section class="section best_hotels_section">
+        <div class="container">
+            <div class="best_header">
+                <div>
+                    <h2>Best Quality Hotels</h2>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                </div>
+                <div class="stars_filter">
+                    <span>1 Star</span> <span>2 Star</span> <span>3 Star</span> <span>4 Star</span> <span class="active_star">5 Star</span>
+                </div>
+            </div>
+            
+            <div class="hotels_cards">
+            
+                <div class="hotel_card">
+                    <img src="./images/Image (20) — копия.png" alt="Hotel 1">
+                    <h3>Swimming pool and beach of luxury...</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card_footer">
+                        <span class="price">$250 <span>/NIGHT</span></span>
+                        <button class="btn btn_blue">Details</button>
+                    </div>
+                </div>
+                <div class="hotel_card">
+                    <img src="./images/Image (21).png" alt="Hotel 2">
+                    <h3>InterContinental Fujairah Resort Clu...</h3>
+ <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card_footer">
+                        <span class="price">$250 <span>/NIGHT</span></span>
+                        <button class="btn btn_blue">Details</button>
+                    </div>
+                </div>
+                <div class="hotel_card">
+                    <img src="./images/Image (22).png" alt="Hotel 3">
+                    <h3>Burj Al Arab - Jumeirah Street - Dub...</h3>
+                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                    <div class="card_footer">
+                        <span class="price">$250 <span>/NIGHT</span></span>
+                        <button class="btn btn_blue">Details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="section subscribe_section">
+        <div class="container subscribe_container">
+            <div class="subscribe_text">
+                <h2>Subscribe for our mailing list to get latest updates and offers</h2>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+                <div class="subscribe_form">
+                    <input type="email" placeholder="Enter your email">
+                    <button class="btn btn_primary">Subscribe</button>
+                </div>
+            </div>
+            <div class="subscribe_img">
+                <img src="./images/Image (23).png" alt="Man">
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container footer_container">
+            <div class="footer_col">
+                <div class="logo">
+                    <img src="./images/logo.png" alt="Hotelo">
+                    <span>Hotelo</span>
+                </div>
+                <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.</p>
+            </div>
+            <div class="footer_col">
+                <h4>Home</h4>
+                <a href="#">Booking</a>
+                <a href="#">Facilities</a>
+                <a href="#">Location</a>
+                <a href="#">Contact</a>
+            </div>
+            <div class="footer_col">
+                <h4>Help</h4>
+                <a href="#">About Us</a>
+                <a href="#">Help center</a>
+                <a href="#">Privacy policy</a>
+                <a href="#">FAQs</a>
+            </div>
+            <div class="footer_col">
+                <h4>Get the app</h4>
+                <a href="#">iOS app</a>
+                <a href="#">Android app</a>
+            </div>
+        </div>
+    </footer>
 
-    </div>
-
-</section>
-
-
-<div class="rasm-avval">
-
-    <img class="rasmi1" src="./images copy/Image (13).png" alt="Hotel">
-
-    <div class="rasm-du">
-        <img class="rasmi2" src="./images copy/Image (14).png" alt="Hotel pool">
-
-        <img class="rasmi3" src="./images copy/Image (15).png" alt="Hotel room">
-    </div>
-
-</div>
 </body>
 </html>
