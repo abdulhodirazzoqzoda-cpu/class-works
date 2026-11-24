@@ -110,15 +110,15 @@ p {
 .facility_item { width: 22%; }
 .icon_circle {
     width: 60px; height: 60px;
-    background-color: #FFF8E1; /* Ранги зардча */
+    background-color: #FFF8E1; 
     border-radius: 50%;
     display: flex; justify-content: center; align-items: center;
     font-size: 24px; margin-bottom: 20px;
 }
-.luxury_container { display: flex; gap: 50px; align-items: center; }
+.luxury_container { display: flex; gap: 50px; align-items: center;justify-content: space-between; }
 .luxury_img { width: 50%; }
-.luxury_img img { width: 100%; border-radius: 20px; }
-.luxury_text { width: 50%; }
+.luxury_img img { width: 100%; border-radius: 20px;object-fit: cover; }
+.luxury_text { width: 50%;align-items: flex-start; flex-direction: column;display: flex;}
 .stats { display: flex; gap: 30px; margin-bottom: 30px; flex-wrap: wrap; }
 .stat_item h3 { font-size: 32px; margin-bottom: 5px; color: #1A1A1A; }
 .stat_item p { font-size: 14px; }
@@ -129,7 +129,7 @@ p {
 .testi_img { width: 50%; border-radius: 20px 0 0 20px; object-fit: cover; }
 .testi_card {
     width: 50%;
-    background-color: #F4C430; /* Ранги зард */
+    background-color: #F4C430; 
     padding: 50px;
     border-radius: 0 20px 20px 0;
     display: flex; flex-direction: column; justify-content: center;
@@ -162,8 +162,6 @@ p {
 }
 .subscribe_img { width: 40%; }
 .subscribe_img img { width: 100%; max-width: 300px; display: block; margin: 0 auto; }
-
-/* --- 9. Footer --- */
 .footer { padding: 60px 0; border-top: 1px solid #EEE; }
 .footer_container { display: flex; justify-content: space-between; gap: 40px; }
 .footer_col { display: flex; flex-direction: column; gap: 10px; }
